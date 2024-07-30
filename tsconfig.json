@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "outDir": "./dist",          // Diretório de saída para os arquivos compilados
+      "rootDir": "./src",          // Diretório de origem dos arquivos TypeScript
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*.ts", "types/**/*.d.ts"],
+    "exclude": ["node_modules"]
+  }
